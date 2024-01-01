@@ -2,6 +2,8 @@
 
 Create a customized Nginx with the VTS (Virtual Host Traffic Status) module effortlessly using this Dockerfile and build script. <br>
 you can find the actuall module [here](https://github.com/vozlt/nginx-module-vts). All credits to him, Check it out for more info.<br> we're just simplifying the build process. 
+<br>
+you can check the nginx-sample folder to get started with nginx.
 
 ## Features
 
