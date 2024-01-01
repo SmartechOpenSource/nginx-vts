@@ -13,8 +13,8 @@ you can check the nginx-sample folder to get started with nginx.
 - 🔄 Using the latest Nginx version (1.24)
 
 <br>
-<img src="scr1.png" /></br>
-<img src="scr2.png" /></br>
+<img src="src/scr1.png" /></br>
+<img src="src/scr2.png" /></br>
 
 
 ## Quick Start
