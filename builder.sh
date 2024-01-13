@@ -18,6 +18,7 @@ tar axf nginx-1.24.0.tar.gz
 git clone https://github.com/openresty/headers-more-nginx-module.git
 git clone https://github.com/vozlt/nginx-module-vts.git
 
+mkdir -p /var/lib/nginx/body # this is needed for nginx to run
 # Build and install NGINX from source with specified configuration
 cd nginx-1.24.0
 ./configure --with-cc-opt='-g -O2 -fdebug-prefix-map=/build/nginx-lUTckl/nginx-1.18.0=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC -Wdate-time -D_FORTIFY_SOURCE=2' \
